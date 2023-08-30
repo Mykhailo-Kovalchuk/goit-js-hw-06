@@ -22,6 +22,7 @@ dataObject[name] = value;})
 }
 
 
+
 function validateForm(data) {
     for (const key in data) {
         if (data[key] === '') {
